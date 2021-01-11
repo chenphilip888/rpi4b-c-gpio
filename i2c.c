@@ -55,7 +55,7 @@ int i2c_lcd_test ( void )
 {
     int i;
     int fd;
-    printf ("Rockpi4b i2c test\n") ;
+    printf ("Raspberry pi i2c test\n") ;
   
     // 0x62 is rgb, 0x3e is text
     fd = open( "/dev/i2c-1", O_RDWR );
